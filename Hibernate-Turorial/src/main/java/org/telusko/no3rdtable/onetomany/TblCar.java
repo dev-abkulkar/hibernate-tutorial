@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity(name = "TBL_CAR")
-public class TblCar {
+class TblCar {
 
 	@Id
 	String registrationNumber;

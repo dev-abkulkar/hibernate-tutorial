@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity(name = "TBL_CAR_OWNER")
-public class TblCarOwner {
+ class TblCarOwner {
 
 	public TblCarOwner() {
 		// TODO Auto-generated constructor stub
